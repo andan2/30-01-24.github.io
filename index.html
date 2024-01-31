@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="shortcut icon" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/Imagenes/logo_maria_icono_sitio.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Soul</title>
+</head>
+<body>
+    <div class="wing right"></div>
+    <div class="wing left"></div>
+     <div class="heart"></div>
+     <!-- La lightbox, inicialmente oculta -->
+<div class="lightbox" id="miLightbox">
+    <div class="lightbox-content">
+        <span class="close"><i class='bx bx-x'></i></span>
+        <p>Hola María,</p>
+
+        <p>Bueno, han pasado casi dos meses desde la primera carta que escribí. Nunca pensé que escribiría a una persona que tal vez nunca lea este mensaje. Si hubiera conocido a alguien así hace un año, hubiera dicho que está loco; bueno, puede que haya cambiado de opinión, jaja.</p>
+
+        <p>Si algún día lees esto, quizás te preguntes por qué desaparecí de repente. Realmente, uno no se enamora solo de decirle a alguien todos los días cómo está o con qué pie se levantó, si con el izquierdo o con el derecho (aunque sea lo que uno quiera hacer). Creo que esas cosas ayudan, pero debe haber algo que haga explotar eso. Es un dato curioso, pero ¿sabías que para lograr la rendición de Japón en la Segunda Guerra Mundial, tuvieron que lanzar dos bombas atómicas? De no ser por eso, probablemente nunca se hubieran rendido. A veces, puede que haya que lanzar una bomba para cambiar el rumbo de las cosas. Creo que lo entenderás a medida que vayas leyendo las futuras cartas <span id="emojiBoton" style="cursor: pointer;">▶️</span>.</p>
+
+        <p>Y ahora, aprovechando el cierre del mes, haré un poco de 'building in public'. Al final, este mes terminé con unos ingresos de unos 220€. La verdad es que ha ido mucho mejor de lo que esperaba; TikTok me ha ido muy bien, las webs poco a poco empiezan a arrancar y creo que puede ser el inicio de algo bonito. Ahora solo me queda seguir mejorando. ¿El límite? No lo sé, supongo que será aquel que me permita hacer lo que quiero.</p>
+
+        <p>Por cierto, la web de esta semana es <a href="https://www.turismovietnam.info/" target="_blank" rel="nofollow noopener">turismovietnam.info</a>. Es un país que me encantó. Tengo un amigo que irá en abril y me ha pedido que le planifique todo. Yo me llevaré una comisión, así que para recordar sitios, me ha venido genial!</p>
+    
+        <p>Hasta la próxima,</p>
+    
+        <p>Andrei.</p>
+    </div>
+</div>
+    <!-- Estructura de la caja de luz para el video -->
+    <div id="cajaLuz" class="lightbox lightboxVideo" style="display: none;">
+        <div class="lightbox-content lightbox-contentVideo">
+            <span class="close" onclick="cerrarCajaLuz()"><i class='bx bx-x'></i></span>
+            <video controls>
+                <source src="https://res.cloudinary.com/dclfvlcah/video/upload/v1706659551/iloveu_fvylxu.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+        </div>
+    </div>
+        <div id="envelope">
+  <div class="top"></div>
+  <div class="home-button-container">
+    <!-- El ícono de la casa ahora funciona como un botón de enlace -->
+    <a href="https://andan2.github.io/portfolio.github.io/" id="home-button">
+      <i class="fas fa-home"></i>
+    </a>
+  </div>
+  <div class="sides"></div>
+</div>
+    <div class="star">
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
